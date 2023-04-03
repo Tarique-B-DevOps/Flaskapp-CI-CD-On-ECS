@@ -4,7 +4,7 @@ FROM python:3.8-slim-buster
 # Set the working directory
 WORKDIR /flask-helloapp
 
-# Copy app content to container directory
+# Copy app content to container directory.
 COPY . .
 
 # install app dependencies
